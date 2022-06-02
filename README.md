@@ -57,3 +57,5 @@ Now we should be done with linux for a little bit so we can logout of the ssh se
 Search for Remote Desktop Connection in windows:
 
 ![image](https://user-images.githubusercontent.com/66997364/171703613-36f81409-daf5-4eaf-9375-a0035dc421e5.png)
+
+Start it and type the ip address that you fetched earlier into the computer field:
