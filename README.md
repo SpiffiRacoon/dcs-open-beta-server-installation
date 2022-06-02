@@ -33,3 +33,7 @@ The out put shoudd be something like the following:
  ```
              
 This tells us it's active and loaded.
+
+## 2 Remote into server from windows.
+
+Now that xrdp is setup in linux we can logout of our ssh session and go back to our windows desktop. search for the application
