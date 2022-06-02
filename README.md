@@ -36,4 +36,15 @@ This tells us it's active and loaded.
 
 ## 2 Remote into server from windows.
 
-Now that xrdp is setup in linux we can logout of our ssh session and go back to our windows desktop. search for the application
+Now that xrdp is setup in linux we should make sure we have the servers ip-address. You can do this in multiple ways but two them are the following:
+
+### For public ip:
+```curl http://ipinfo.io/ip```
+
+### For private ip(lan):
+```sudo apt install net-tools```
+then
+```ifconfig```
+and then look for inet... where your ip should be.
+
+
