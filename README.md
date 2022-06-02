@@ -61,3 +61,9 @@ Search for Remote Desktop Connection in windows:
 Start it and type the ip address that you fetched earlier into the computer field:
 
 ![image](https://user-images.githubusercontent.com/66997364/171704101-6d125d44-a529-4025-8f57-f7f9ec617711.png)
+
+Now a login window should appear. Type in the username of the user on the server you want to login as like the (admin account) and the password for that account.
+
+If you have trouble logging in make sure that no other person is logged into the same acoount that you are trying to connect to at the same time.
+
+Now we should have a remote desktop linux environment infront of us!!!!
