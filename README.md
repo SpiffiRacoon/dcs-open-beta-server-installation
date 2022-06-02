@@ -25,4 +25,11 @@ It should start automatically but just to make sure run:
 ```sudo systemctl status xrdp```
 
 The out put shoudd be something like the following:
-```
+```● xrdp.service - xrdp daemon
+     Loaded: loaded (/lib/systemd/system/xrdp.service; enabled; vendor preset: >
+     Active: active (running) since Thu 2022-06-02 19:49:58 CEST; 27min ago
+       Docs: man:xrdp(8)
+             man:xrdp.ini(5)
+ ```
+             
+This tells us it's active and loaded.
