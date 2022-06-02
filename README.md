@@ -84,5 +84,24 @@ Make sure you have 32 bit architecture enabled before installing the package
 
 then download and add repo key:
 
-```wget -nc https://dl.winehq.org/wine-builds/winehq.key```&&
+```wget -nc https://dl.winehq.org/wine-builds/winehq.key```
+
+then
+
 ```sudo mv winehq.key /usr/share/keyrings/winehq-archive.key```
+
+after this add the repo:
+
+```wget -nc https://dl.winehq.org/wine-builds/ubuntu/dists/jammy/winehq-jammy.sources```
+
+then
+
+```sudo mv winehq-jammy.sources /etc/apt/sources.list.d/```
+
+install wine:
+
+```sudo apt update```
+
+then
+
+```sudo apt install --install-recommends winehq-staging```
