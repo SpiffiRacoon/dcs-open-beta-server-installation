@@ -43,8 +43,15 @@ Now that xrdp is setup in linux we should make sure we have the servers ip-addre
 
 ### For private ip(lan):
 ```sudo apt install net-tools```
+
 then
+
 ```ifconfig```
+
 and then look for inet... where your ip should be.
 
+Now we should be done with linux for a little bit so we can logout of the ssh session.
 
+### Starting Remote Desktop Connection.
+
+Search for Remote Desktop Connection in windows:
