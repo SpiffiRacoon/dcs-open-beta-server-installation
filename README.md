@@ -84,5 +84,5 @@ Make sure you have 32 bit architecture enabled before installing the package
 
 then download and add repo key:
 
-```wget -nc https://dl.winehq.org/wine-builds/winehq.key
-sudo mv winehq.key /usr/share/keyrings/winehq-archive.key```
+```wget -nc https://dl.winehq.org/wine-builds/winehq.key```&&
+```sudo mv winehq.key /usr/share/keyrings/winehq-archive.key```
