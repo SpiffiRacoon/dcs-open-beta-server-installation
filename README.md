@@ -59,3 +59,5 @@ Search for Remote Desktop Connection in windows:
 ![image](https://user-images.githubusercontent.com/66997364/171703613-36f81409-daf5-4eaf-9375-a0035dc421e5.png)
 
 Start it and type the ip address that you fetched earlier into the computer field:
+
+![image](https://user-images.githubusercontent.com/66997364/171704101-6d125d44-a529-4025-8f57-f7f9ec617711.png)
