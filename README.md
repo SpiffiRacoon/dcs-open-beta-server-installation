@@ -67,3 +67,22 @@ Now a login window should appear. Type in the username of the user on the server
 If you have trouble logging in make sure that no other person is logged into the same acoount that you are trying to connect to at the same time.
 
 Now we should have a remote desktop linux environment infront of us!!!!
+
+## 3 Install wineHQ
+
+Now we wanna install wine in order for us to be able to run windows applications.
+
+The most up to date installation guide can be found at: https://www.winehq.org/
+
+You can find instructions for diffrent distros but in my case the package was installed on ubuntu 22: https://wiki.winehq.org/Ubuntu
+
+The following commands is for installing it on ubuntu 22.04:
+
+Make sure you have 32 bit architecture enabled before installing the package
+
+```sudo dpkg --add-architecture i386```
+
+then download and add repo key:
+
+```wget -nc https://dl.winehq.org/wine-builds/winehq.key
+sudo mv winehq.key /usr/share/keyrings/winehq-archive.key```
