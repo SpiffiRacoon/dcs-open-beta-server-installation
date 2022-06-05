@@ -100,7 +100,7 @@ then
 
 ```sudo mv winehq-jammy.sources /etc/apt/sources.list.d/```
 
-install wine:
+*install wine:*
 
 ```sudo apt update```
 
@@ -115,4 +115,6 @@ Now default compatibility mode in will be set to Windows 7 we need to set it to 
 If it want to install wine mono hit install.
 
 ![image](https://user-images.githubusercontent.com/66997364/171719494-63dcc9c6-6c69-4cd6-bf3f-88834d341b6e.png)
+
+
 
