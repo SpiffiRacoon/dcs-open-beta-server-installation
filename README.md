@@ -108,6 +108,8 @@ You can find instructions for diffrent distros but in my case the package was in
 
 ```sudo apt install --install-recommends winehq-staging```
 
+### Some wine configurating before we move on:
+
 Now default compatibility mode in will be set to Windows 7 we need to set it to Windows 8.1, in the terminal type:
 
 ```winecfg```
