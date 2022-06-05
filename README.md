@@ -80,31 +80,31 @@ You can find instructions for diffrent distros but in my case the package was in
 
 The following commands is for installing it on ubuntu 22.04:
 
-Make sure you have 32 bit architecture enabled before installing the package
+**Make sure you have 32 bit architecture enabled before installing the package**
 
 ```sudo dpkg --add-architecture i386```
 
-then download and add repo key:
+**then download and add repo key:**
 
 ```wget -nc https://dl.winehq.org/wine-builds/winehq.key```
 
-then
+*then*
 
 ```sudo mv winehq.key /usr/share/keyrings/winehq-archive.key```
 
-after this add the repo:
+**after this add the repo:**
 
 ```wget -nc https://dl.winehq.org/wine-builds/ubuntu/dists/jammy/winehq-jammy.sources```
 
-then
+*then*
 
 ```sudo mv winehq-jammy.sources /etc/apt/sources.list.d/```
 
-*install wine:*
+**install wine:**
 
 ```sudo apt update```
 
-then
+*then*
 
 ```sudo apt install --install-recommends winehq-staging```
 
@@ -112,7 +112,7 @@ Now default compatibility mode in will be set to Windows 7 we need to set it to 
 
 ```winecfg```
 
-If it want to install wine mono hit install.
+*If it asks you to install wine mono hit install.*
 
 ![image](https://user-images.githubusercontent.com/66997364/171719494-63dcc9c6-6c69-4cd6-bf3f-88834d341b6e.png)
 
