@@ -78,7 +78,7 @@ The most up to date installation guide can be found at: https://www.winehq.org/
 
 You can find instructions for diffrent distros but in my case the package was installed on ubuntu 22: https://wiki.winehq.org/Ubuntu
 
-The following commands is for installing it on ubuntu 22.04:
+###The following commands is for installing it on ubuntu 22.04:###
 
 **Make sure you have 32 bit architecture enabled before installing the package**
 
