@@ -78,33 +78,33 @@ The most up to date installation guide can be found at: https://www.winehq.org/
 
 You can find instructions for diffrent distros but in my case the package was installed on ubuntu 22: https://wiki.winehq.org/Ubuntu
 
-###The following commands is for installing it on ubuntu 22.04:###
+### The following commands is for installing it on ubuntu 22.04:
 
-**Make sure you have 32 bit architecture enabled before installing the package**
+**Make sure you have 32 bit architecture enabled before installing the package
 
 ```sudo dpkg --add-architecture i386```
 
-**then download and add repo key:**
+**then download and add repo key:
 
 ```wget -nc https://dl.winehq.org/wine-builds/winehq.key```
 
-*then*
+*then
 
 ```sudo mv winehq.key /usr/share/keyrings/winehq-archive.key```
 
-**after this add the repo:**
+**after this add the repo:
 
 ```wget -nc https://dl.winehq.org/wine-builds/ubuntu/dists/jammy/winehq-jammy.sources```
 
-*then*
+*then
 
 ```sudo mv winehq-jammy.sources /etc/apt/sources.list.d/```
 
-**install wine:**
+**install wine:
 
 ```sudo apt update```
 
-*then*
+*then
 
 ```sudo apt install --install-recommends winehq-staging```
 
