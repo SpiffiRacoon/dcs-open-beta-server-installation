@@ -64,6 +64,8 @@ Start it and type the ip address that you fetched earlier into the computer fiel
 
 Now a login window should appear. Type in the username of the user on the server you want to login as like the (admin account) and the password for that account.
 
+![image](https://user-images.githubusercontent.com/66997364/172075457-e1bfb4f8-4745-442f-9075-c3c3c13d1a95.png)
+
 If you have trouble logging in make sure that no other person is logged into the same acoount that you are trying to connect to at the same time.
 
 Now we should have a remote desktop linux environment infront of us!!!!
