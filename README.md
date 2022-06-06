@@ -154,3 +154,13 @@ This repo also has advice on how to fix some game bugs and getting headtracking 
 
 ```./winetricks vcrun2019 corefonts xact d3dcompiler_43```
 
+## INSTALLING DCS SERVER!!!!!!
+
+Finally, after all that hardwork the time has come *(exectu order 66)*. We will need a browser to download the dcs server client. If your distro doesn't have a browser pre-installed you will need to do it via the terminal. For example:
+
+```sudo apt install iceweasel```
+
+Navigate to ED's website and download the server client you want in my case i'm gonna setup a 2.7 open beta server so i download this server client:
+
+https://www.digitalcombatsimulator.com/en/downloads/world/server_beta/
+
