@@ -226,3 +226,10 @@ Navigate to ~/.wine/drive_C/Program\ Files/Eagle\ Dynamics/DCS\ World\ OpenBeta\
 
 ![image](https://user-images.githubusercontent.com/66997364/172083238-be2dfd31-bc49-4018-a5f4-5d94670e3f18.png)
 
+![image](https://user-images.githubusercontent.com/66997364/172083387-400d02a0-c044-4596-890d-fdd8bac2e849.png)
+
+Now open Index.html in any browser of choice. If everything has gone as planned you should now see the following:
+
+![image](https://user-images.githubusercontent.com/66997364/172083518-e842ff9b-9bc7-4877-9eb6-e3ed1884697b.png)
+
+Just hit connect and now you are off to the races of creating your own "cheaper" DCS server!
