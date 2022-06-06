@@ -204,8 +204,8 @@ Open the terminal and type the following:
 
 ```ln -s ~/.wine/drive_c/Program\ Files/Eagle\ Dynamics/DCS\ World\ OpenBeta\ Server/bin/webrtc_plugin.dll ~/.wine/drive_c/Program\ Files/Eagle\ Dynamics/DCS\ World\ OpenBeta\ Server/webrtc_plugin.dll```
 
-Now let's try and run the server starting with running the updater:
+Now let's try and run the server starting with running the updater (Recommend saving this line somewhere or even better making an .sh file with it since you will have to run this command everythime you wanna start the server client):
 
 ```WINEARCH="win64" WINEDLLOVERRIDES="wbemprox=n" WINEPREFIX=~/.wine/ wine ~/.wine/drive_c/Program\ Files/Eagle\ Dynamics/DCS\ World\ OpenBeta\ Server/bin/DCS_updater.exe```
 
-Once it's done updating the game should start... just a little problem... 
+Once it's done updating the game should start... just a little problem...
