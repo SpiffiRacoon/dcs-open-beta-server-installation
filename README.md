@@ -180,6 +180,18 @@ The dcs updater will be installed and start downloading.
 
 You will notice that the second time launching the dcs updater it will complain to you that you need to use windows 8.1 or over for modern dcs. This is a problem with the default global wine compatability not applying on the dcs updater.
 
-To fix this we will need to go back into the wine configurator:
+To fix this we will need to go back into the wine configurator, open the terminal:
 
 ```winecfg```
+
+Click on add application:
+
+![image](https://user-images.githubusercontent.com/66997364/172080038-6b1b46a7-f5d3-4785-99cb-aef44f095b7b.png)
+
+Navigate to c://progam files/Eagle Dynamics/DCS World OpenBeta Server/bin/DCS_updater.exe
+
+![image](https://user-images.githubusercontent.com/66997364/172080341-8ce1c573-aed9-4828-a40f-d8bd07ff222e.png)
+
+Once you have it added click on the application in the application settings and change it from "Use global settings" to windows 8.1
+
+![image](https://user-images.githubusercontent.com/66997364/172080556-eae21ecd-38e9-40ff-88cd-0abd418fae4f.png)
