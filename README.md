@@ -122,5 +122,35 @@ Now default compatibility mode in will be set to Windows 7 we need to set it to 
 
 Now while Wine is a great way to emulate windows software some applications require extra dll files to properly function inside it. DCS is one such game.
 
+To assist us on installing these dll packages we are going to use a nifty program called winetricks. The most up to date instillation guide can be found at: https://wiki.winehq.org/Winetricks.
+
+**As of writing this guide the instillation is as follows:**
+
+open the terminal and Change directory to the downloads folder or another know folder so you know where the application will be located.
+
+```cd Downloads```
+
+Download winetricks:
+
+```wget  https://raw.githubusercontent.com/Winetricks/winetricks/master/src/winetricks```
+
+Make winetricks into a runnable file:
+
+```chmod +x winetricks```
+
+### Before we use winetricks
+
+Before we start using winetricks we will need to add cabextract for it to work.
+
+```sudo apt install cabextract```
+
+After that we also need to figure out what actuall dll files we need to get DCS standalone to run on linux.
+
 Luckely there are other people who have gone through the trouble of figuring out what you need to run standalone dcs on linux. You can find a git repo which is updated with manual instilation methods for the diffrent versions of dcs (i.e steam edition and standalone). Link to repo: https://github.com/TheZoq2/dcs_on_linux
+
+This repo also has advice on how to fix some game bugs and getting headtracking working on linux if you wanna also play the game on linux.
+
+**As of writing this guide we use the following winetricks command:**
+
+```./winetricks vcrun2019 corefonts xact d3dcompiler_43```
 
