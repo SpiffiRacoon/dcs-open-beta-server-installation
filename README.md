@@ -170,7 +170,7 @@ https://www.digitalcombatsimulator.com/en/downloads/world/server_beta/
 
 **Install the server**
 
-```wine wine DCS_World_OpenBeta_Server_web_5.exe```
+```wine DCS_World_OpenBeta_Server_web_5.exe```
 
 Keep the defualt fields in the installer for instillation directory and everything.
 
@@ -178,3 +178,8 @@ The dcs updater will be installed and start downloading.
 
 ## 6 Some "tweaking" *(wink wink oceanic wing)* will be required
 
+You will notice that the second time launching the dcs updater it will complain to you that you need to use windows 8.1 or over for modern dcs this is a problem with the default global wine compatability not applying on the dcs updater.
+
+To fix this we will need to go back into the wine configurator:
+
+```winecfg```
