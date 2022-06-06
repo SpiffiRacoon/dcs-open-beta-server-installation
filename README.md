@@ -154,7 +154,7 @@ This repo also has advice on how to fix some game bugs and getting headtracking 
 
 ```./winetricks vcrun2019 corefonts xact d3dcompiler_43```
 
-## INSTALLING DCS SERVER!!!!!!
+## 5 INSTALLING DCS SERVER!!!!!!
 
 Finally, after all that hardwork the time has come *(exectu order 66)*. We will need a browser to download the dcs server client. If your distro doesn't have a browser pre-installed you will need to do it via the terminal. For example:
 
@@ -163,4 +163,18 @@ Finally, after all that hardwork the time has come *(exectu order 66)*. We will 
 Navigate to ED's website and download the server client you want in my case i'm gonna setup a 2.7 open beta server so i download this server client:
 
 https://www.digitalcombatsimulator.com/en/downloads/world/server_beta/
+
+**Once the file has been downloaded navigate to the Downloads directory:**
+
+```cd Downloads```
+
+**Install the server**
+
+```wine wine DCS_World_OpenBeta_Server_web_5.exe```
+
+Keep the defualt fields in the installer for instillation directory and everything.
+
+The dcs updater will be installed and start downloading.
+
+## 6 Some "tweaking" *(wink wink oceanic wing)* will be required
 
