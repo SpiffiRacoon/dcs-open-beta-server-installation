@@ -9,7 +9,7 @@ This guide is mostly angled towards users who want to start a remote dcs server 
 
 First off if your os doesn't have a desktop environment you will need to install your own. One recommendation is to install the reletivly light weight XFCE. SSH into the server and type the following into the console:
 
-```sudo apt update```
+```sudo apt update``` & 
 ```sudo apt upgrade```
 
 Now we have updated our ppa and distro time to install XFCE (OBS if your OS already has a desktop environment you don't need to do this):
