@@ -178,7 +178,7 @@ The dcs updater will be installed and start downloading.
 
 ## 6 Some "tweaking" *(wink wink oceanic wing)* will be required
 
-You will notice that the second time launching the dcs updater it will complain to you that you need to use windows 8.1 or over for modern dcs this is a problem with the default global wine compatability not applying on the dcs updater.
+You will notice that the second time launching the dcs updater it will complain to you that you need to use windows 8.1 or over for modern dcs. This is a problem with the default global wine compatability not applying on the dcs updater.
 
 To fix this we will need to go back into the wine configurator:
 
