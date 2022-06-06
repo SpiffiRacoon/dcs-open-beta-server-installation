@@ -208,4 +208,6 @@ Now let's try and run the server starting with running the updater (Recommend sa
 
 ```WINEARCH="win64" WINEDLLOVERRIDES="wbemprox=n" WINEPREFIX=~/.wine/ wine ~/.wine/drive_c/Program\ Files/Eagle\ Dynamics/DCS\ World\ OpenBeta\ Server/bin/DCS_updater.exe```
 
-Once it's done updating the game should start... just a little problem...
+Once it's done updating the game should start... just a little problem... There is just a black box? Unfortunatly running the client on linux ain't completely bug free. There is a black box blocking our login window. Have no fear all we have to do is move the login window out from under the black box.
+
+On ubuntu 22.04 LTS this is easiest achived by pressing ```left alt + space``` and then selecting "move". Now using the directional keys you can now move the login window. Most distros should have somethign equal to this so look up on the internet how to do this on your selected distro. 
