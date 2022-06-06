@@ -201,3 +201,11 @@ Just for the hell of it i did the same for DCS.exe.
 ### Next we will need to create a symlink for webrtc plugin.
 
 Open the terminal and type the following:
+
+```ln -s ~/.wine/drive_c/Program\ Files/Eagle\ Dynamics/DCS\ World\ OpenBeta\ Server/bin/webrtc_plugin.dll ~/.wine/drive_c/Program\ Files/Eagle\ Dynamics/DCS\ World\ OpenBeta\ Server/webrtc_plugin.dll```
+
+Now let's try and run the server starting with running the updater:
+
+```WINEARCH="win64" WINEDLLOVERRIDES="wbemprox=n" WINEPREFIX=~/.wine/ wine ~/.wine/drive_c/Program\ Files/Eagle\ Dynamics/DCS\ World\ OpenBeta\ Server/bin/DCS_updater.exe```
+
+Once it's done updating the game should start... just a little problem... 
