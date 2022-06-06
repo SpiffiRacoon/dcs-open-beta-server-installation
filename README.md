@@ -195,3 +195,9 @@ Navigate to c://progam files/Eagle Dynamics/DCS World OpenBeta Server/bin/DCS_up
 Once you have it added click on the application in the application settings and change it from "Use global settings" to windows 8.1
 
 ![image](https://user-images.githubusercontent.com/66997364/172080556-eae21ecd-38e9-40ff-88cd-0abd418fae4f.png)
+
+Just for the hell of it i did the same for DCS.exe.
+
+### Next we will need to create a symlink for webrtc plugin.
+
+Open the terminal and type the following:
