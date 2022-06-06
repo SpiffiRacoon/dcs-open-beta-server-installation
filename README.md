@@ -118,5 +118,9 @@ Now default compatibility mode in will be set to Windows 7 we need to set it to 
 
 ![image](https://user-images.githubusercontent.com/66997364/171719494-63dcc9c6-6c69-4cd6-bf3f-88834d341b6e.png)
 
+## 4 Install winetricks
 
+Now while Wine is a great way to emulate windows software some applications require extra dll files to properly function inside it. DCS is one such game.
+
+Luckely there are other people who have gone through the trouble of figuring out what you need to run standalone dcs on linux. You can find a git repo which is updated with manual instilation methods for the diffrent versions of dcs (i.e steam edition and standalone). Link to repo: https://github.com/TheZoq2/dcs_on_linux
 
