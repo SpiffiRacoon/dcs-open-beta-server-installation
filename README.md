@@ -210,4 +210,19 @@ Now let's try and run the server starting with running the updater (Recommend sa
 
 Once it's done updating the game should start... just a little problem... There is just a black box? Unfortunatly running the client on linux ain't completely bug free. There is a black box blocking our login window. Have no fear all we have to do is move the login window out from under the black box.
 
+### Halp how fix disssssss!!!!
+
 On ubuntu 22.04 LTS this is easiest achived by pressing ```left alt + space``` and then selecting "move". Now using the directional keys you can now move the login window. Most distros should have somethign equal to this so look up on the internet how to do this on your selected distro. 
+
+Now login using the desired dcs profile, give it a few sec to start and Voilà!!!
+
+![image](https://user-images.githubusercontent.com/66997364/172082449-9d31160b-2784-4672-9f1a-fdedd2d058a4.png)
+
+A black (no rendering) dcs server client!!!
+
+## 7 WEBGUI
+
+Navigate to ~/.wine/drive_C/Program\ Files/Eagle\ Dynamics/DCS\ World\ OpenBeta\ Server/WebGUI Tip: .wine is a hidden folder located in your home directory. So if you are using a file manager and can't find it, try and enable hidden files in some setting inside the manager. Example in ubuntu desktop 22.04;
+
+![image](https://user-images.githubusercontent.com/66997364/172083238-be2dfd31-bc49-4018-a5f4-5d94670e3f18.png)
+
